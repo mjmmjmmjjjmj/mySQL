@@ -1,7 +1,4 @@
-select * from warehouse.emp;
-
-UPDATE `warehouse`.`emp`
-SET
-
-`salary` = 32
-WHERE `eno` = 6;
+use warehouse;
+SELECT d.name, e.eno
+FROM dept d, emp e
+where eno = 'e1';
